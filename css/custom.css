@@ -35,10 +35,14 @@ h2 {
 	color: #7B7D7F;
 }
 
+.social-icons i {
+	margin: 10px;
+}
+
 .nav ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 96px 0;
+	margin: 64px 0;
 	font-size: 14px;
 }
 
@@ -51,6 +55,6 @@ h2 {
 	margin: 0 0 24px 0;
 }
 
-a:hover {
+a:hover, a.active {
 	color: red;
 }
