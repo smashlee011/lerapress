@@ -16,20 +16,23 @@ h2 span {
 .sidebar {
 	text-align: center;
 	width: 33%;
-
+	border-right: 1px solid #DDE2E5;
 }
 
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 40px;
 	margin: 24px 0 16px 0;
-
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #626466;
 }
 
 h2 {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 400;
+	color: #7B7D7F;
 }
 
 .nav ul {
@@ -37,12 +40,11 @@ h2 {
 	padding: 0;
 	margin: 96px 0;
 	font-size: 14px;
-
 }
 
 .nav a {
 	text-decoration: none;
-	color: black;
+	color: #A0A3A6;
 }
 
 .nav li {
