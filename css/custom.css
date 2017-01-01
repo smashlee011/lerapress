@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 
 body {
 	font-family: 'Nunito Sans', sans-serif;
@@ -17,6 +21,12 @@ h2 span {
 	text-align: center;
 	width: 33%;
 	border-right: 1px solid #DDE2E5;
+	float: left;
+}
+
+.main-content {
+	width: 67%;
+	float: left;
 }
 
 h1 {
@@ -65,9 +75,3 @@ a:hover, a.active {
 	color: red;
 }
 
-
-.main-content {
-	width: 50%;
-	max-width: 50px;
-	display: inline-block;
-}
