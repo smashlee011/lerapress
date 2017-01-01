@@ -39,6 +39,12 @@ h2 {
 	margin: 10px;
 }
 
+.social-icons a {
+	color: #4A4A4A;
+	text-decoration: none;
+	transition: red 200ms ease;
+}
+
 .nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -57,4 +63,11 @@ h2 {
 
 a:hover, a.active {
 	color: red;
+}
+
+
+.main-content {
+	width: 50%;
+	max-width: 50px;
+	display: inline-block;
 }
