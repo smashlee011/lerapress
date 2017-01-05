@@ -116,14 +116,13 @@ a:hover, a.active {
 	top: 0;
 	left: 0;
 	background: black;
-	opacity: 0.5;
-	display: none;
+	opacity: 0;
+	transition: opacity 300ms ease;
 }
 
 .card:hover .overlay {
-	display: block;
+	opacity: 0.5;
 }
-
 
 button {
 	border-radius: 50%;
