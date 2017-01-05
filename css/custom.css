@@ -1,3 +1,10 @@
+@media (max-width: 400px) {
+	.card {
+		margin-right: 0;
+	}
+}
+
+
 * {
 	box-sizing: border-box;
 }
@@ -62,7 +69,7 @@ h3 {
 .social-icons a {
 	color: #4A4A4A;
 	text-decoration: none;
-	transition: red 200ms ease;
+	transition: #FF586C 200ms ease;
 }
 
 .nav ul {
@@ -82,14 +89,18 @@ h3 {
 }
 
 a:hover, a.active {
-	color: red;
+	color: #FF586C;
 }
 
 .card {
 	float: left;
-	width: 50%;
+	width: 49%;
 	padding: 16px;
 	position: relative;
+	margin-bottom: 8px;
+}
+.card:nth-child(odd) {
+	margin-right: 8px;
 }
 
 .card img {
@@ -101,12 +112,25 @@ a:hover, a.active {
 .card-content {
 	background: #EFEFEF;
 	padding: 16px;
+	position: relative;
 }
 
 .byline {
 	color: #b3b3b3;
 	font-size: 12px;
 	margin-bottom: 32px;
+}
+
+.share-button {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	color: #696969;
+}
+
+.share-button:hover {
+	color: #FF586C;
+	cursor: pointer;
 }
 
 .overlay {
@@ -126,10 +150,10 @@ a:hover, a.active {
 
 button {
 	border-radius: 50%;
-	border: 2px solid red;
+	border: 2px solid #FF586C;
 	width: 100px;
 	height: 100px;
-	color: red;
+	color: #FF586C;
 	text-align: center;
 	text-decoration: none;
 	background: white;
@@ -139,7 +163,7 @@ button {
 }
 
 button:hover {
-	background: red;
+	background: #FF586C;
 	color: white;
 }
 
