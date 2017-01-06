@@ -4,7 +4,6 @@
 	}
 }
 
-
 * {
 	box-sizing: border-box;
 }
@@ -100,7 +99,7 @@ a:hover, a.active {
 	margin-bottom: 8px;
 }
 .card:nth-child(odd) {
-	margin-right: 8px;
+	width: calc(49%-16px);
 }
 
 .card img {
@@ -165,5 +164,9 @@ button {
 button:hover {
 	background: #FF586C;
 	color: white;
+}
+
+.clearfix {
+	clear: both;
 }
 
